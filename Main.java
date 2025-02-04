@@ -7,7 +7,7 @@ public class Main {
     static Television tv = new Television();
 
     public static void main(String[] args) {
-        turnOnTv(); // İlk açılışta sadece TV açma seçeneği var.
+        turnOnTv(); 
 
         boolean exit = false;
         while (!exit) {
@@ -37,7 +37,7 @@ public class Main {
     private static void turnOnTv() {
         System.out.println("Welcome! You need to turn on the TV first.");
         tv.turnOn();
-        setupTv(); // TV açılır açılmaz otomatik kurulum yapılır.
+        setupTv(); 
     }
 
     private static void setupTv() {
